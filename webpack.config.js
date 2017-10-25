@@ -1,9 +1,8 @@
 // We are using node's native package 'path'
 // https://nodejs.org/api/path.html
-const path = require('path');
-
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path'),
+HtmlWebpackPlugin = require('html-webpack-plugin'),
+ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // Constant with our paths
 const paths = {

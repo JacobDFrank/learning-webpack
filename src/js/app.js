@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import '../styles/style.scss';
+// import '../styles/style.scss';
 
 import starfishImage from '../assets/starFish.jpg'; // Importing image -> ADDED IN THIS STEP
 
@@ -12,7 +12,7 @@ export default class Hello extends Component {
         Hello from react
 
         {/* ADDED IN THIS STEP */}
-        <img class="image" src={ starfishImage } alt='Commander Keen' />
+        <img className="image" src={ starfishImage } alt='Commander Keen' />
       </div>
     );
   }
